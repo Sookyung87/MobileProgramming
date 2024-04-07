@@ -3,6 +3,7 @@ package com.example.mobileprogramming_test;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+//
 
 public class MainActivity extends AppCompatActivity {
     //테스트 중
