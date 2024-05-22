@@ -61,7 +61,8 @@
                     android:inputType="text"
                     android:paddingLeft="8dp"
                     android:textColor="#000000"
-                    android:textColorHint="#8D000000" />
+                    android:textColorHint="#8D000000"
+                    android:hint="(영문 소문자/숫자, 4~16자)"/>
 
                 <Button
                     android:id="@+id/btnCheckId_Reg"
@@ -110,7 +111,8 @@
                     android:layout_gravity="bottom"
                     android:inputType="textPassword"
                     android:textColor="#000000"
-                    android:textColorHint="#8D000000" />
+                    android:textColorHint="#8D000000"
+                    android:hint="(영문 대소문자/숫자/기호, 8~16자)"/>
             </FrameLayout>
 
         </LinearLayout>
@@ -232,7 +234,8 @@
                     android:layout_gravity="bottom"
                     android:inputType="number"
                     android:textColor="#000000"
-                    android:textColorHint="#8D000000" />
+                    android:textColorHint="#8D000000"
+                    android:hint="' - '제외 하고 번호만 입력"/>
 
             </FrameLayout>
 
