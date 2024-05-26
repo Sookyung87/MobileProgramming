@@ -38,15 +38,15 @@
 
             <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="77dp">
 
                 <TextView
                     android:id="@+id/textView2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="top|left"
-                    android:layout_marginBottom="34dp"
                     android:layout_marginLeft="8dp"
+                    android:layout_marginBottom="34dp"
                     android:text="아이디"
                     android:textColor="#000000"
                     android:textSize="18sp" />
@@ -54,7 +54,7 @@
                 <EditText
                     android:id="@+id/editTextId_Reg"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="61dp"
                     android:layout_gravity="bottom"
                     android:backgroundTint="#000000"
                     android:ems="10"
@@ -65,15 +65,15 @@
 
                 <Button
                     android:id="@+id/btnCheckId_Reg"
-                    android:layout_width="80dp"
-                    android:layout_height="30dp"
+                    android:layout_width="126dp"
+                    android:layout_height="wrap_content"
                     android:layout_gravity="right|top"
                     android:backgroundTint="#000000"
+                    android:padding="1dp"
                     android:text="중복확인"
                     android:textAlignment="center"
                     android:textColor="#FFFFFF"
-                    android:padding="1dp"
-                    android:textSize="12sp"
+                    android:textSize="16sp"
                     tools:ignore="RtlCompat" />
             </FrameLayout>
 
@@ -102,13 +102,14 @@
 
                 <EditText
                     android:id="@+id/editTextPass_Reg"
+                    style="@android:style/Widget.EditText"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:paddingLeft="8dp"
+                    android:layout_height="75dp"
+                    android:layout_gravity="bottom"
                     android:backgroundTint="#000000"
                     android:ems="10"
-                    android:layout_gravity="bottom"
                     android:inputType="textPassword"
+                    android:paddingLeft="8dp"
                     android:textColor="#000000"
                     android:textColorHint="#8D000000" />
             </FrameLayout>
@@ -139,12 +140,12 @@
                 <EditText
                     android:id="@+id/editTextRePass_Reg"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:paddingLeft="8dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="bottom"
                     android:backgroundTint="#000000"
                     android:ems="10"
-                    android:layout_gravity="bottom"
                     android:inputType="textPassword"
+                    android:paddingLeft="8dp"
                     android:textColor="#000000"
                     android:textColorHint="#8D000000" />
 
@@ -175,27 +176,27 @@
                 <EditText
                     android:id="@+id/editTextNick_Reg"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:paddingLeft="8dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="bottom"
                     android:backgroundTint="#000000"
                     android:ems="10"
-                    android:layout_gravity="bottom"
                     android:inputType="text"
                     android:maxLength="20"
+                    android:paddingLeft="8dp"
                     android:textColor="#000000"
                     android:textColorHint="#8D000000" />
 
                 <Button
                     android:id="@+id/btnCheckNick_Reg"
-                    android:layout_width="80dp"
-                    android:layout_height="30dp"
+                    android:layout_width="112dp"
+                    android:layout_height="wrap_content"
                     android:layout_gravity="right|top"
                     android:backgroundTint="#000000"
+                    android:padding="1dp"
                     android:text="중복확인"
                     android:textAlignment="center"
                     android:textColor="#FFFFFF"
-                    android:padding="1dp"
-                    android:textSize="12sp"
+                    android:textSize="16sp"
                     tools:ignore="RtlCompat" />
             </FrameLayout>
 
@@ -225,14 +226,15 @@
                 <EditText
                     android:id="@+id/editTextPhone_Reg"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:paddingLeft="8dp"
+                    android:layout_height="66dp"
+                    android:layout_gravity="bottom"
                     android:backgroundTint="#000000"
                     android:ems="10"
-                    android:layout_gravity="bottom"
                     android:inputType="number"
+                    android:paddingLeft="8dp"
                     android:textColor="#000000"
-                    android:textColorHint="#8D000000" />
+                    android:textColorHint="#8D000000"
+                    android:textSize="20sp" />
 
             </FrameLayout>
 
