@@ -69,7 +69,7 @@
         app:layout_constraintStart_toStartOf="parent">
 
         <Button
-            android:id="@+id/btnCheckNick_Reg"
+            android:id="@+id/btnLogin"
             android:layout_width="248dp"
             android:layout_height="55dp"
             android:layout_gravity="center"
