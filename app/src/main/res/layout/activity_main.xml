@@ -32,6 +32,7 @@
             android:paddingLeft="9dp"
             android:textColor="#000000"
             android:textColorHint="#8D000000"
+            android:textSize="20sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -50,6 +51,7 @@
             android:paddingLeft="8dp"
             android:textColor="#000000"
             android:textColorHint="#8D000000"
+            android:textSize="20sp"
             app:layout_constraintBottom_toTopOf="@+id/btnLogin"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
@@ -69,7 +71,7 @@
         <Button
             android:id="@+id/btnCheckNick_Reg"
             android:layout_width="248dp"
-            android:layout_height="60dp"
+            android:layout_height="55dp"
             android:layout_gravity="center"
             android:layout_marginBottom="20dp"
             android:backgroundTint="#000000"
@@ -77,19 +79,19 @@
             android:text="로그인"
             android:textAlignment="center"
             android:textColor="#FFFFFF"
-            android:textSize="25sp" />
+            android:textSize="30sp" />
 
         <Button
             android:id="@+id/btnRegister"
             android:layout_width="wrap_content"
-            android:layout_height="40dp"
+            android:layout_height="50dp"
             android:layout_gravity="center|bottom"
             android:backgroundTint="#FFFFFF"
             android:padding="5dp"
             android:text="회원가입"
             android:textAlignment="center"
             android:textColor="#000000"
-            android:textSize="18sp" />
+            android:textSize="20sp" />
     </FrameLayout>
 
     <ImageView
