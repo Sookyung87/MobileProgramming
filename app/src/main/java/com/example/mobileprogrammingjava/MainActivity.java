@@ -30,8 +30,10 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+
+
         Button btnLogin = (Button)findViewById(R.id.btnLogin);
-        btnRegister.setOnClickListener(new View.OnClickListener() {
+        btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 //화면전환

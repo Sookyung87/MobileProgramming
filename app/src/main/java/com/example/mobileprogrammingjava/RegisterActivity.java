@@ -1,8 +1,10 @@
 package com.example.mobileprogrammingjava;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
@@ -18,6 +20,17 @@ public class RegisterActivity extends AppCompatActivity {
         setContentView(R.layout.activity_register);
 
         View mainView = findViewById(R.id.register);
+
+        Button btnBack_Main = (Button)findViewById(R.id.btnBack_Main);
+        btnBack_Main.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //화면전환
+                Intent intent = new Intent(RegisterActivity.this, MainActivity.class);
+                startActivity(intent);
+            }
+        });
+
         ViewCompat.setOnApplyWindowInsetsListener(mainView, new OnApplyWindowInsetsListener() {
             @Override
             public WindowInsetsCompat onApplyWindowInsets(View v, WindowInsetsCompat insets) {
