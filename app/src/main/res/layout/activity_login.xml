@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/register">
+    android:id="@+id/login">
 
 
     <LinearLayout
@@ -48,11 +48,11 @@
                 android:layout_height="70dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
-                android:backgroundTint="#000000"
+                android:backgroundTint="#808080"
                 android:padding="1dp"
                 android:text="운전 시작"
                 android:textAlignment="center"
-                android:textColor="#FFFFFF"
+                android:textColor="#000000"
                 android:textSize="25sp" />
 
             <Button
@@ -61,11 +61,11 @@
                 android:layout_height="70dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="150dp"
-                android:backgroundTint="#000000"
+                android:backgroundTint="#C0C0C0"
                 android:padding="1dp"
                 android:text="분석 결과"
                 android:textAlignment="center"
-                android:textColor="#FFFFFF"
+                android:textColor="#000000"
                 android:textSize="25sp" />
         </FrameLayout>
 

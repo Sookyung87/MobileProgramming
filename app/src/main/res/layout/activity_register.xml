@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:inputType = "textNoSuggestions"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/register">
 
@@ -23,13 +24,13 @@
         <Button
             android:id="@+id/btnBack_Main"
             android:layout_width="50dp"
-            android:layout_height="55dp"
+            android:layout_height="50dp"
             android:layout_gravity="left"
             android:backgroundTint="#C0C0C0"
             android:padding="1dp"
-            android:text="<"
+            android:text="&lt;"
             android:textColor="#000000"
-            android:textSize="25sp"
+            android:textSize="20sp"
             tools:layout_editor_absoluteX="16dp"
             tools:layout_editor_absoluteY="16dp" />
 
