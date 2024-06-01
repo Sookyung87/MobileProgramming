@@ -70,6 +70,16 @@ public class RegisterActivity extends AppCompatActivity {
             }
         });
 
+        Button btnRegister_Reg = (Button)findViewById(R.id.btnRegister_Reg);
+        btnRegister_Reg.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //화면전환
+                Intent intent = new Intent(RegisterActivity.this, LoginActivity.class);
+                startActivity(intent);
+            }
+        });
+
         ViewCompat.setOnApplyWindowInsetsListener(mainView, new OnApplyWindowInsetsListener() {
             @Override
             public WindowInsetsCompat onApplyWindowInsets(View v, WindowInsetsCompat insets) {
