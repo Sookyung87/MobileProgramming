@@ -7,39 +7,55 @@
     android:id="@+id/register">
 
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:text="회원가입"
-        android:textColor="#000000"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="350dp"
-        android:layout_height="500dp"
+        android:layout_height="700dp"
         android:layout_marginStart="40dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="40dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.526"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
+        <Button
+            android:id="@+id/btnBack_Main"
+            android:layout_width="50dp"
+            android:layout_height="55dp"
+            android:layout_gravity="left"
+            android:backgroundTint="#C0C0C0"
+            android:padding="1dp"
+            android:text="<"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="회원가입"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
         <LinearLayout
-            android:layout_width="match_parent"
+            android:layout_width="350dp"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
             <FrameLayout
-                android:layout_width="match_parent"
-                android:layout_height="90dp">
+                android:layout_width="350dp"
+                android:layout_height="90dp"
+                android:layout_gravity="center">
 
                 <TextView
                     android:id="@+id/textView2"
@@ -83,13 +99,13 @@
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="match_parent"
+            android:layout_width="350dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
             android:orientation="horizontal">
 
             <FrameLayout
-                android:layout_width="match_parent"
+                android:layout_width="350dp"
                 android:layout_height="90dp">
 
                 <TextView
@@ -122,13 +138,13 @@
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="match_parent"
+            android:layout_width="350dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
             android:orientation="horizontal">
 
             <FrameLayout
-                android:layout_width="match_parent"
+                android:layout_width="350dp"
                 android:layout_height="70dp">
 
                 <TextView
@@ -160,13 +176,13 @@
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="match_parent"
+            android:layout_width="350dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
             android:orientation="horizontal">
 
             <FrameLayout
-                android:layout_width="match_parent"
+                android:layout_width="350dp"
                 android:layout_height="90dp">
 
                 <TextView
@@ -219,7 +235,7 @@
         </LinearLayout>
 
         <FrameLayout
-            android:layout_width="match_parent"
+            android:layout_width="350dp"
             android:layout_height="90dp">
 
             <TextView
@@ -250,23 +266,22 @@
 
 
         </FrameLayout>
+
+        <Button
+            android:id="@+id/btnRegister_Reg"
+            android:layout_width="248dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="60dp"
+            android:backgroundTint="#000000"
+            android:padding="1dp"
+            android:text="완료"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
     </LinearLayout>
-
-    <Button
-        android:id="@+id/btnRegister_Reg"
-        android:layout_width="248dp"
-        android:layout_height="60dp"
-        android:layout_gravity="center"
-        android:layout_marginBottom="60dp"
-        android:backgroundTint="#000000"
-        android:padding="1dp"
-        android:text="완료"
-        android:textAlignment="center"
-        android:textColor="#FFFFFF"
-        android:textSize="25sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
