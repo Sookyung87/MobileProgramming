@@ -1,13 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="deploymentTargetDropDown">
-<<<<<<< HEAD
-    <value>
-      <entry key="app">
-        <State />
-      </entry>
-    </value>
-=======
     <targetSelectedWithDropDown>
       <Target>
         <type value="QUICK_BOOT_TARGET" />
@@ -19,7 +12,6 @@
         </deviceKey>
       </Target>
     </targetSelectedWithDropDown>
-    <timeTargetWasSelectedWithDropDown value="2024-05-26T15:58:48.556922500Z" />
->>>>>>> c3d7b05704768ca94f855b163c49e288aa0aaac8
+    <timeTargetWasSelectedWithDropDown value="2024-06-01T08:05:22.131809500Z" />
   </component>
 </project>

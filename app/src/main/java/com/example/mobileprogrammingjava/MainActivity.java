@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         dbHelper = new DBHelper(this);
         etUsername = findViewById(R.id.editTextId);
         etPassword = findViewById(R.id.editTextPassword);
-        btnLogin = findViewById(R.id.btnCheckNick_Reg);
+        btnLogin = findViewById(R.id.btnLogin);
         btnRegister = findViewById(R.id.btnRegister);
 
         btnLogin.setOnClickListener(new View.OnClickListener() {
@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         Button btnLogin = (Button)findViewById(R.id.btnLogin);
-        btnRegister.setOnClickListener(new View.OnClickListener() {
+        btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 //화면전환
